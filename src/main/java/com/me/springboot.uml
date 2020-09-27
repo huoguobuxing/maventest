@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="87.0">com.me.spring_boot_starter_parent</node>
+    <node x="1545.0" y="184.0">com.me.spring_boot_actuator</node>
+    <node x="462.97380952380956" y="271.0">com.me.spring_boot_starter_log4j2</node>
+    <node x="912.0" y="184.0">com.me.spring_boot_starters</node>
+    <node x="72.0" y="184.0">com.me.maven_test</node>
+    <node x="1125.4738095238097" y="87.0">com.me.spring_boot_parent</node>
+    <node x="1150.0" y="184.0">com.me.spring_boot</node>
+    <node x="1284.9738095238097" y="271.0">com.me.spring_boot_starter_test</node>
+    <node x="1055.9738095238097" y="271.0">com.me.spring_boot_starter</node>
+    <node x="557.2238095238097" y="0.0">com.me.spring_boot_dependencies</node>
+    <node x="220.0" y="184.0">com.me.spring_boot_test_autoconfigure</node>
+    <node x="754.9738095238096" y="271.0">com.me.spring_boot_starter_logging</node>
+    <node x="548.0" y="184.0">com.me.spring_boot_actuator_autoconfigure</node>
+    <node x="1307.0" y="184.0">com.me.spring_boot_devtools</node>
+    <node x="1783.0" y="184.0">com.me.spring_boot_test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.me.spring_boot_devtools" target="com.me.spring_boot_parent">
+      <point x="1.1368683772161603E-13" y="-18.5" />
+      <point x="1416.0000000000002" y="164.0" />
+      <point x="1254.0452380952381" y="164.0" />
+      <point x="28.571428571428555" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starter" target="com.me.spring_boot_starters">
+      <point x="0.0" y="-18.5" />
+      <point x="1160.4738095238097" y="251.0" />
+      <point x="1048.25" y="251.0" />
+      <point x="27.25" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starter_parent" target="com.me.spring_boot_dependencies">
+      <point x="0.0" y="-18.5" />
+      <point x="136.0" y="62.0" />
+      <point x="620.7238095238097" y="62.0" />
+      <point x="-63.5" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_actuator_autoconfigure" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="720.0" y="154.0" />
+      <point x="1168.3309523809526" y="154.0" />
+      <point x="-57.14285714285711" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starter_log4j2" target="com.me.spring_boot_starters">
+      <point x="1.1368683772161603E-13" y="-18.5" />
+      <point x="598.9738095238097" y="241.0" />
+      <point x="939.25" y="241.0" />
+      <point x="-81.75" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starters" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="1021.0" y="164.0" />
+      <point x="1196.902380952381" y="164.0" />
+      <point x="-28.571428571428555" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_test_autoconfigure" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="374.0" y="144.0" />
+      <point x="1139.759523809524" y="144.0" />
+      <point x="-85.71428571428567" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_actuator" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="1654.0" y="154.0" />
+      <point x="1282.6166666666668" y="154.0" />
+      <point x="57.142857142857224" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_parent" target="com.me.spring_boot_dependencies">
+      <point x="1.1368683772161603E-13" y="-18.5" />
+      <point x="1225.4738095238097" y="62.0" />
+      <point x="747.7238095238097" y="62.0" />
+      <point x="63.5" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starter_test" target="com.me.spring_boot_starters">
+      <point x="0.0" y="-18.5" />
+      <point x="1411.9738095238097" y="241.0" />
+      <point x="1102.75" y="241.0" />
+      <point x="81.75" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_starter_logging" target="com.me.spring_boot_starters">
+      <point x="0.0" y="-18.5" />
+      <point x="895.4738095238096" y="251.0" />
+      <point x="993.75" y="251.0" />
+      <point x="-27.25" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot_test" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="1874.0" y="144.0" />
+      <point x="1311.1880952380952" y="144.0" />
+      <point x="85.71428571428567" y="18.5" />
+    </edge>
+    <edge source="com.me.spring_boot" target="com.me.spring_boot_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="1218.5" y="164.0" />
+      <point x="1225.4738095238097" y="164.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.me.maven_test" target="com.me.spring_boot_starter_parent">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7257198633479747" x="1014.5" y="154.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
